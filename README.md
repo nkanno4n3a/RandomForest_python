@@ -16,6 +16,11 @@ RF_10models.ipynb:
 ## Requirement
 This codes created using by python language and save as Jupyter Notebook style.
 It is suitable to open this script via Jupyter Notebook or JupyterLab.
+#### Required python library:
+* scikit-learn
+* numpy
+* pandas
+* matplotlib
 
 ## Usage
 * Create a working directory folder at an arbitrary location. *Multiple output files are generated in the working directory.  
@@ -38,12 +43,6 @@ This is for Random Forest beginners.
 ## License
 MIT License  
 Copyright (c) 2022 Nanako Kanno
-
-## Required python library:
-* scikit-learn
-* numpy
-* pandas
-* matplotlib
 
 ## Related articles
 Original:   
