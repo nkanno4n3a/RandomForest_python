@@ -1,5 +1,5 @@
 # RandomForest_python
-* This script provide implementation example of RandomForestClassifiler in scikit-learn library.  
+* This script provides implementation example of RandomForestClassifiler in scikit-learn library.  
 * You can tune the hyperparameter and perform 10-closs validation.
 
 GridSearch_10models.ipynb:
@@ -14,7 +14,7 @@ RF_10models.ipynb:
 	* confusion matrix
 
 ## Requirement
-This codes created using by python language and save as Jupyter Notebook style.
+These codes created using by python language and save as Jupyter Notebook style.
 It is suitable to open this script via Jupyter Notebook or JupyterLab.
 #### Required python library:
 * scikit-learn
