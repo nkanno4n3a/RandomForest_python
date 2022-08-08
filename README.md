@@ -24,7 +24,9 @@ It is suitable to open this script via Jupyter Notebook or JupyterLab.
 
 ## Usage
 * Create a working directory folder at an arbitrary location. *Multiple output files are generated in the working directory.  
-* "sampledataset.txt" is an example file for import. If you do not have your own data, use this file. File structure; The first column is the spectral name, the second column is the class name, and the third and subsequent columns are the features.
+* "sampledataset.txt" is an example file for import. If you do not have your own data, use this file.  
+File structure; The first column is the sample name, the second column is the class name, and the third and subsequent columns are the features.  
+*This file contains Raman spectral data of microbial cells. A spectral data was obtained from a microbial cell. The features are Raman intensity (normalized) for Raman shift.
 
 #### Open the script "GridSearch_10models.ipynb"
 * Change "sampledatase.txt" in `df = pd.read_table('sampledatase.txt')` to the name of the import file.  
@@ -38,6 +40,7 @@ Data is simply split into test and training data sets.
 This is for Random Forest beginners. 
 
 ## Examples
+This is an example of an application of Random Forest to discriminate species from Raman spectra of microbes.  
 ![exapmle](https://github.com/nkanno4n3a/RandomForest_python_test/blob/main/image/figure1.png)
 
 ## License
